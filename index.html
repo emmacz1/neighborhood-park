@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neighborhood Park</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .gallery-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #17a2b8;
+    }
+    .map-section img {
+      max-width: 25%;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #28a745;
+    }
+    .footinfo {
+      text-align: center;
+    }
+    footer {
+      border-top: 3px solid #17a2b8;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Neighborhood Park</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#map">Location</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+    <div class="container text-center">
+      <h1>Welcome to Neighborhood Park</h1>
+      <p>A park where neighbors and visitors alike come to relax, take a stroll, and enjoy nature.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="static/park-walkway.jpg" class="img-fluid" alt="Image 1">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="static/backside.jpg" class="img-fluid" alt="Image 2">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="static/mountain.jpg" class="img-fluid" alt="Image 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="map" class="map-section py-5">
+    <div class="container">
+      <div class="map-container">
+        <div>
+          <h2 class="text-left mb-4">Park Location</h2>
+          <img src="static/chicago-map.jpeg" class="img-fluid" alt="Map">
+          <div class="footinfo">
+            <div class="foothead">Info</div>
+            <div class="location">
+              <p class="tiny"><i class="fas fa-map-market-alt"></i>Chicago, IL 60603 United States</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Neighborhood Park</p>
+    </div>
+  </footer>
+
+</body>
+</html>
